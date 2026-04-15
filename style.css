@@ -1,0 +1,134 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero p{
+text-align: left;
+    font-size: 28px;
+}
+
+
+h1{
+     font-size: 180px;
+    font-weight: 400;
+    line-height: 0.85;
+    margin-bottom: 24px;
+
+    text-align: center;
+}
+
+h2{
+    font-size: 72px;
+    font-weight: 140px;
+    text-align: center;
+}
+ul{
+    text-align: left;
+    font-size: 38px;
+}
+
+body {
+    font-family: Times, serif;
+    border: solid red 4px;
+}
+
+.pro {
+    align-items: center;
+    box-shadow: 40px;
+    width: 600px;
+
+}
+
+.présta {
+    width: 200px;
+}
+
+.div cta {    display: flex;
+     justify-content: space-between;}
+
+
+
+
+.cta {
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-size: 42px;
+    background-color: purple;
+
+
+}
+
+.cta2 {
+    border-radius: 10px;
+    text-decoration: none;
+    color: black; 
+    text-decoration: none;
+    font-size: 42px;
+    background-color: rgb(240, 194, 240);
+
+
+}
+
+header {
+    height: 100vh;
+}
+
+.container {
+    font-size: 68px;
+    border: solid red 2px;
+    margin: auto;
+    width: 1080px;
+}
+
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    height: 22px;
+    font-family: Montserrat;
+    color: black;
+    font-size: 48px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    box-shadow: 400px;
+    border-radius: 70px;
+    width: 298px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    gap: 10px;
+}
+
+nav a:hover {
+    opacity: 0, 85;
+}
+
+.card {
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    width: auto;
+}
+
+.card-titlle {
+    text-align: center;
+    font-size: 22px;
+}
+
+p{
+
+    font-size: 18px;
+}
