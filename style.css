@@ -1,31 +1,31 @@
 * {
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.hero p{
-text-align: left;
+.hero p {
+    text-align: left;
     font-size: 28px;
 }
 
 
-h1{
-     font-size: 180px;
+h1 {
+    font-size: 180px;
     font-weight: 400;
     line-height: 0.85;
     margin-bottom: 24px;
-
     text-align: center;
 }
 
-h2{
+h2 {
+  
     font-size: 72px;
-    font-weight: 140px;
+    font-weight: 10px;
     text-align: center;
 }
-ul{
+
+ul {
     text-align: left;
     font-size: 38px;
 }
@@ -39,18 +39,17 @@ body {
     align-items: center;
     box-shadow: 40px;
     width: 600px;
-
 }
 
 .présta {
     width: 200px;
 }
 
-.div cta {    display: flex;
-     justify-content: space-between;}
-
-
-
+.div cta {
+    width: 400px;
+    text-align: center;
+    justify-content: space-between;
+}
 
 .cta {
     border-radius: 10px;
@@ -59,19 +58,15 @@ body {
     text-decoration: none;
     font-size: 42px;
     background-color: purple;
-
-
 }
 
 .cta2 {
     border-radius: 10px;
     text-decoration: none;
-    color: black; 
+    color: black;
     text-decoration: none;
     font-size: 42px;
     background-color: rgb(240, 194, 240);
-
-
 }
 
 header {
@@ -104,7 +99,7 @@ nav a {
 
 .nav {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
 }
 
@@ -128,7 +123,12 @@ nav a:hover {
     font-size: 22px;
 }
 
-p{
+p {
+    font-size: 20px;
+}
 
-    font-size: 18px;
+.formulaire {
+    font-size: 22px;
+    background: rgb(236, 231, 231);
+    padding: 90px 80px;
 }

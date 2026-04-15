@@ -14,8 +14,16 @@ Couleur Texte: #3E2C23
 Typographie Titres: Montserrat
 Typographie Corps: Lato
 
+Section promesses
 
-Prestations
+Titre: Une approche humaine et poétique pour des instants figés à jamais
+- Une approche humaine et bienveillante, pour des photos naturelles et pleines de vie
+- Un savoir-faire technique au service de la créativité
+- Des retouches subtiles pour un rendu à la fois professionnel et authentique
+- Une flexibilité totale sur les lieux et les styles de prise de vue
+ 
+
+Section Prestations
 
 Intitule: Evénements et reportages
 Details: Des photos spontanées et authentiques pour immortaliser vos événements artistiques, sportifs ou familiaux avec sensibilité et créativité.
@@ -29,16 +37,9 @@ Intitule: Shooting professionnel
 Details: Des photos de qualité pour vos profils, sites web et supports de communication. Mettez votre image au service de vos projets.
 
 
-Valeurs Ajoutees
-
-Titre: Une approche humaine et poétique pour des instants figés à jamais
-- Une approche humaine et bienveillante, pour des photos naturelles et pleines de vie
-- Un savoir-faire technique au service de la créativité
-- Des retouches subtiles pour un rendu à la fois professionnel et authentique
-- Une flexibilité totale sur les lieux et les styles de prise de vue
 
 
-Galerie
+Section Galerie
 
 Titre Serie: Mariage d’Élodie & Maxime
 Description Serie: Reportage photo complet, des préparatifs à la soirée, capturant les émotions et les petits détails d’une journée inoubliable.
@@ -53,7 +54,7 @@ Titre Serie: Voyage en Islande
 Description Serie: Paysages majestueux, contrastes puissants et jeux de lumière au cœur des terres islandaises.
 
 
-Temoignages Clients
+Section Temoignages Clients
 
 Prenom: Amélie
 Type Prestation: Mariage
