@@ -1,17 +1,62 @@
 * {
+    font-family: Times, serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+article {
+    line-height: 1.2;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.témoignages {
+    margin: 20px;
+
+}
+
+.réalisation {
+    margin: 20px;
+
+}
+
+.préstation {
+    margin: 20px;
+
+}
+
+
+.promesse {
+    margin: 20px;
+
+
+}
+
+.divRow {
+    text-align: justify;
+    display: flex;
+    flex-direction: row
+}
+
+.hero {
+
+    margin: 20px;
+    padding: 20px;
+}
+
 .hero p {
+    color: FF9800;
+    margin: 16px;
+    padding: 26px;
     text-align: left;
-    font-size: 28px;
+    font-size: 44px;
 }
 
 
 h1 {
-    font-size: 180px;
+    font-size: 69px;
     font-weight: 400;
     line-height: 0.85;
     margin-bottom: 24px;
@@ -19,63 +64,78 @@ h1 {
 }
 
 h2 {
-  
-    font-size: 72px;
-    font-weight: 10px;
+
+    font-size: 55px;
     text-align: center;
 }
 
+h3 {
+
+    font-size: 44px;
+}
+
 ul {
+    list-style: none;
+    font-size: 28px;
     text-align: left;
     font-size: 38px;
 }
 
 body {
+    line-height: 1.2;
     font-family: Times, serif;
-    border: solid red 4px;
+
 }
 
 .pro {
+
+    margin: 10px;
+    padding: 10px;
     align-items: center;
     box-shadow: 40px;
-    width: 600px;
+    width: 500px;
 }
 
 .présta {
-    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    box-shadow: 40px;
+    width: 300px;
+    height: 450px;
 }
 
-.div cta {
-    width: 400px;
-    text-align: center;
-    justify-content: space-between;
-}
 
 .cta {
+    box-shadow: 100px;
+    padding: 6px 6px;
+    width: fit-content;
+    margin: 40px 80px;
     border-radius: 10px;
     text-decoration: none;
-    color: white;
-    text-decoration: none;
+    color: black;
     font-size: 42px;
-    background-color: purple;
+    background-color: #FF9800;
 }
 
 .cta2 {
+    padding: 6px 6px;
+    margin: 40px 80px;
+    box-shadow: 100px;
     border-radius: 10px;
     text-decoration: none;
     color: black;
     text-decoration: none;
-    font-size: 42px;
-    background-color: rgb(240, 194, 240);
+    font-size: 32px;
+    background-color: #f6dab1;
 }
 
 header {
-    height: 100vh;
+    height: auto;
 }
 
 .container {
     font-size: 68px;
-    border: solid red 2px;
     margin: auto;
     width: 1080px;
 }
@@ -92,14 +152,14 @@ nav a {
 }
 
 .logo {
-    box-shadow: 400px;
+    background-color: #FF9800;
     border-radius: 70px;
     width: 298px;
 }
 
 .nav {
     display: flex;
-
+    background-color: #FF9800;
     align-items: center;
 }
 
@@ -107,28 +167,36 @@ nav {
     gap: 10px;
 }
 
-nav a:hover {
-    opacity: 0, 85;
-}
+
 
 .card {
     margin: 20px;
     padding: 20px;
-    justify-content: center;
-    width: auto;
+
 }
 
 .card-titlle {
     text-align: center;
-    font-size: 22px;
+    font-size: 35px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .formulaire {
     font-size: 22px;
     background: rgb(236, 231, 231);
     padding: 90px 80px;
+}
+
+.card p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+
+}
+
+.div card {
+    display: flex;
 }
