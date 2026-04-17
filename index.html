@@ -3,97 +3,116 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=event_available" />
     <title>Document</title>
 </head>
 
 <body>
     <header>
-
         <div class="nav">
-            <img class="logo" src="assets/photographe/logo.png" alt="">
-
-            <nav>
-                <a href="lesSeances">Préstations</a>
-                <a href="préstation">Galerie</a>
-                <a href="temoignages">Temoignages Clients</a>
-                <a class="contact">Contact</a>
-
-            </nav>
+            <div>
+                <img class="logo" src="assets/photographe/logo.png" alt="">
+            </div>
+            <div>
+                <nav class="nav-bouton">
+                    <a href="#prestation">Prestations</a>
+                    <a href="prestation">Galerie</a>
+                    <a href="temoignages">Temoignages Clients</a>
+                    <a class="contact">Contact</a>
+                </nav>
+            </div>
         </div>
     </header>
 
 
     <section class="hero">
-
         <div class="container">
-            <h1>Clara Lenoir Photographie
-            </h1>
-            <p class="hero p">Capturer l’émotion, révéler la beauté du moment
-            </p>
-
-            <a href="" class="cta">Réserver une séance</a>
-            <a href="" class="cta2"> Voir mes réalisations</a>
-
+            <div class="hero-title">
+                <h1>Clara Lenoir Photographie
+                </h1>
+                <p>Capturer l’émotion, révéler la beauté du moment
+                </p>
+                <div class="hero-cta">
+                    <a href="#formulaire" class="cta">Réserver une séance</a>
+                    <a href="" class="cta2"> Voir mes réalisations</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="promesse">
 
         <div class="container">
+            <div class="promesse-container">
+                <h2> Présentation
+                </h2>
+                <h3 class="promesse-sous-titre">Une approche humaine et poétique pour des instants figés à jamais</h3>
 
-            <h2> Une approche humaine et poétique pour des instants figés à jamais
-            </h2>
-
-            <div class="divRow">
-
-
-                <img class="pro" src="assets/photographe/prestations/shooting-photo-corporate.jpg" alt="">
-                <ul>
-
-
-                    <li>Une approche humaine et bienveillante, pour des photos naturelles et pleines de vie
-                    </li>
-                    <li>Un savoir-faire technique au service de la créativité
-                    </li>
-                    <li>Des retouches subtiles pour un rendu à la fois professionnel et authentique
-                    </li>
-                    <li>Une flexibilité totale sur les lieux et les styles de prise de vue
-                    </li>
-
-                </ul>
+                <div class="promesse-contenu">
+                    <img class="pro" src="assets/photographe/prestations/shooting-photo-corporate.jpg" alt="">
+                    <div class="promesse-span">
+                        <div><span>✨ Une approche humaine et bienveillante, pour des photos naturelles et pleines de
+                                vie</span></div>
+                        <div><span>🎯 Un savoir-faire technique au service de la créativité</span></div>
+                        <div><span>🎨 Des retouches subtiles pour un rendu à la fois professionnel et authentique</span>
+                        </div>
+                        <div><span>📍 Une flexibilité totale sur les lieux et les styles de prise de vue</span></div>
+                        <div> <a class="promesse-bouton" href=""> <span class="material-symbols-outlined">
+                                    event_available
+                                </span> Réserver une séance</a></div>
+                    </div>
+                </div>
             </div>
         </div>
 
 
 
     </section>
-    <section class="préstation">
+    <section class="prestation" id="prestation">
 
         <div class="container">
 
-            <h3>Evénements et reportages</h3>
+            <div class="prestation-container">
+            
+                <h2>Prestation</h2>
+                <div class="prestation-contenu" >
+                <div class="prestation-card">
+                    <img class="foto-card" src="assets/photographe/prestations/beachvolley.jpg">
+                    <h3>Evénements et reportages</h3>
+                    <p>Des photos spontanées et authentiques pour immortaliser vos événements artistiques, sportifs ou
+                        familiaux avec sensibilité et créativité.
+                    </p>
+                    <a>CTA</a>
+                </div>
+                <div class="prestation-card">
+                    <img class="foto-card" src="assets/photographe/prestations/mariage.jpg">
+                    <h3>Photographie de mariage </h3>
+                    <p>Des clichés sincères et élégants qui retracent avec authenticité chaque instant de votre
+                        journée
+                        exceptionnelle.
+                    </p>
 
-            <div class="divRow">
-            <article>
-                <img class="présta" src="assets/photographe/prestations/beachvolley.jpg">
-                <img class="présta" src="assets/photographe/prestations/mariage.jpg">
-                <img class="présta" src="assets/photographe/prestations/velo.jpg" alt="">
-
-                <p>Des photos spontanées et authentiques pour immortaliser vos événements artistiques, sportifs ou
-                    familiaux avec sensibilité et créativité.
-                </p>
-                <h3>Photographie de mariage
-                </h3>
-                <p>Des clichés sincères et élégants qui retracent avec authenticité chaque instant de votre journée
-                    exceptionnelle.</p>
-                <h3>Shooting professionnel
-                </h3>
-                <p>Des photos de qualité pour vos profils, sites web et supports de communication. Mettez votre image au
-                    service de vos projets.
-                </p>
-            </article>
+                    <a>CTA</a>
+                </div>
+                <div class="prestation-card">
+                    <img class="foto-card" src="assets/photographe/prestations/velo.jpg" alt="">
+                    <h3>Shooting professionnel
+                    </h3>
+                    <p>Des photos de qualité pour vos profils, sites web et supports de communication. Mettez votre
+                        image au
+                        service de vos projets.
+                    </p>
+                    <a>CTA</a>
+                </div>
+            </div>
             </div>
         </div>
     </section>
@@ -177,7 +196,7 @@
             </article>
         </div>
     </section>
-    <section>
+    <section id="formulaire" class="section-formulaire">
         <div class="container">
             <h2>Un projet, une envie? Pret à collaborer ensemble?</h2>
             <form class="formulaire">
@@ -185,9 +204,8 @@
                 <input type="text" id="name" name="name" placeholder="Nom">
 
                 <label for="tel">Téléphone</label>
-                <input type="tel" id="telephone" name="telephone" placeholder="Téléphone">
-
-                <label for="email">Email</label>
+                <input type="tel" id="telephone" name="telephone" placeholder="Téléphone" <label
+                    for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="email">
 
                 <label for="story">Message</label>

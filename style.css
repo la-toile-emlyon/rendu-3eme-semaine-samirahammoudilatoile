@@ -1,77 +1,117 @@
 * {
-    font-family: Times, serif;
+    border: red solid 1px;
+    font-family: Inter;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-article {
-    line-height: 1.2;
-    gap: 10px;
+
+.prestation-container{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap:8px;
 }
 
-.témoignages {
-    margin: 20px;
 
+.promesse-span {
+    font-size: 28px;
+    justify-content: center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
-.réalisation {
-    margin: 20px;
-
+.prestation-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        
 }
 
-.préstation {
-    margin: 20px;
+.prestation-contenu{
 
+    display: flex;
+    gap: 10px;
+}
+.foto-card{
+    width: 100%;
+}
+.prestation-card p{
+    justify-content: center;
+    font-size:28px;
+}
+
+.promesse-contenu {
+    gap: 48px;
+    display: flex;
 }
 
 
 .promesse {
-    margin: 20px;
-
-
+    background: peachpuff
 }
 
-.divRow {
-    text-align: justify;
+.promesse-container {
+
+    font-size: 34px;
+    align-items: center;
     display: flex;
-    flex-direction: row
+    flex-direction: column;
+    height: 100%;
+    gap: 16px;
+    padding: 64px 0px;
+}
+
+.promesse-container h3 {
+    font-size: 32px;
+}
+
+.promesse-bouton {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    background-color: rgb(3, 3, 50);
+    border-radius: 50px;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 22px;
+
 }
 
 .hero {
-
-    margin: 20px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: url(assets/photographe/galerie/background-hero.jpg);
     padding: 20px;
 }
 
 .hero p {
-    color: FF9800;
-    margin: 16px;
-    padding: 26px;
     text-align: left;
     font-size: 44px;
+    font-weight: 700;
 }
 
 
 h1 {
-    font-size: 69px;
-    font-weight: 400;
-    line-height: 0.85;
-    margin-bottom: 24px;
-    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: 2px;
 }
 
 h2 {
-
     font-size: 55px;
-    text-align: center;
 }
 
 h3 {
-
     font-size: 44px;
+}
+
+p {
+    font-size: 28px;
 }
 
 ul {
@@ -88,16 +128,11 @@ body {
 }
 
 .pro {
-
-    margin: 10px;
-    padding: 10px;
-    align-items: center;
-    box-shadow: 40px;
-    width: 500px;
+    width: 400px;
+    border-radius: 25px
 }
 
 .présta {
-    margin: 10px;
     padding: 10px;
     align-items: center;
     box-shadow: 40px;
@@ -107,70 +142,90 @@ body {
 
 
 .cta {
-    box-shadow: 100px;
-    padding: 6px 6px;
-    width: fit-content;
-    margin: 40px 80px;
-    border-radius: 10px;
+    padding: 18px 24px;
+    border-radius: 50px;
     text-decoration: none;
-    color: black;
-    font-size: 42px;
-    background-color: #FF9800;
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: rgb(3, 3, 50);
+}
+
+.hero-title {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.hero-cta {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 200px;
+    gap: 72px;
 }
 
 .cta2 {
-    padding: 6px 6px;
-    margin: 40px 80px;
-    box-shadow: 100px;
-    border-radius: 10px;
-    text-decoration: none;
     color: black;
+    background-color: peachpuff;
+    border-radius: 50px;
+    padding: 10px 16px;
     text-decoration: none;
-    font-size: 32px;
-    background-color: #f6dab1;
+    font-size: 22px;
 }
 
 header {
-    height: auto;
+
+    background-color: #1A1A1D;
 }
 
 .container {
-    font-size: 68px;
+    height: 100%;
     margin: auto;
-    width: 1080px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-formulaire {
+    height: 100vh;
 }
 
 nav a {
-    margin: 15px;
+    display: flex;
     text-decoration: none;
-    height: 22px;
-    font-family: Montserrat;
-    color: black;
-    font-size: 48px;
+
+    color: white;
+    font-size: 28px;
     justify-content: space-between;
 
 }
 
 .logo {
-    background-color: #FF9800;
     border-radius: 70px;
-    width: 298px;
+    width: 120px;
 }
 
 .nav {
+    padding: 24px 400px;
     display: flex;
-    background-color: #FF9800;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bouton {
+    display: flex;
+    gap: 48px;
     align-items: center;
 }
 
-nav {
-    gap: 10px;
-}
 
 
 
 .card {
-    margin: 20px;
     padding: 20px;
 
 }
@@ -180,9 +235,7 @@ nav {
     font-size: 35px;
 }
 
-p {
-    font-size: 35px;
-}
+
 
 .formulaire {
     font-size: 22px;
@@ -199,4 +252,11 @@ p {
 
 .div card {
     display: flex;
+}
+
+.contact {
+    padding: 8px 16px;
+    border-radius: 50px;
+    color: #1A1A1D;
+    background-color: peachpuff;
 }
