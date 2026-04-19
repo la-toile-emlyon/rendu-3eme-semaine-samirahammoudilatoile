@@ -243,6 +243,7 @@ header {
 }
 
 .container {
+    border-bottom: 1px solid  rgb(3, 3, 50);
     height: 100%;
     margin: auto;
     width: 1200px;
@@ -253,7 +254,7 @@ header {
 .section-formulaire {
     display: flex;
     flex-direction: column ;
-    height: 100vh;
+    padding:48px;
 }
 
 nav a {
@@ -300,11 +301,30 @@ nav a {
 
 
 .formulaire {
-    font-size: 22px;
-    background: rgb(236, 231, 231);
-    padding: 90px 80px;
+
+    gap: 20px;
+    border-radius: 12px;
+    background-color: rgb(222, 211, 211);
+    padding:48px;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.formulaire input{
+    border-radius: 8px;
+    padding: 12px;
 }
 
+.formulaire textarea{
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.formulaire button{
+    border-radius: 8px;
+    padding: 12px;
+}
 .card p {
     display: flex;
     flex-wrap: wrap;
@@ -322,12 +342,50 @@ nav a {
     color: #1A1A1D;
     background-color:white;
 }
-.temoignages-cards{ display: flex;
+.temoignages-cards{ 
+    display: flex;
     flex-wrap: wrap;
     gap: 23px;
+    height: 400px;
+    align-items: flex-start;
 
 }
 
 .temoignages-card{
+    padding: 10px;
     width:32%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.img-témoignages{
+        padding: 8px;
+    border-radius: 50px;
+    width:138px;
+      
+}
+
+.temoignages-card-img{
+    display: flex;
+    align-items: center;
+}
+.section-formulaire{
+    padding: 48px;;
+
+}
+
+.formulaire-contenu{
+    padding: 24px 0px;
+    gap: 48px;
+    display: flex;
+
+}
+.formulaire-titre{
+    width: 50%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
